@@ -14,6 +14,7 @@ class CocktailCell: UICollectionViewCell
 
   let nameCocktail: UILabel = {
     var name = UILabel()
+    name.textColor = .white
     return name
   }()
 
@@ -25,11 +26,11 @@ class CocktailCell: UICollectionViewCell
   }
 
   required init?(coder: NSCoder) {
-      fatalError("init(coder:) has not been implemented")
+    fatalError("init(coder:) has not been implemented")
   }
 
   override func prepareForReuse() {
-      super.prepareForReuse()
+    super.prepareForReuse()
   }
 
   private func setupView()

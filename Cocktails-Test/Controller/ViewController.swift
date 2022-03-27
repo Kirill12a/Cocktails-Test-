@@ -7,7 +7,7 @@
 
 import UIKit
 
- class ViewController: UIViewController {
+class ViewController: UIViewController {
 
   // --------------------------------------
   private var data: [Drink] = []
@@ -23,7 +23,7 @@ import UIKit
     super.viewDidLoad()
     view.backgroundColor = .white
     configureViews()
-//    setupCocktailCollectionView()
+    //    setupCocktailCollectionView()
     // -------------------------
     DispatchQueue.main.async {
       NetworkRequestManager.shared?.request(comletion: { [self] coctail in
@@ -47,8 +47,8 @@ extension ViewController: UICollectionViewDelegate {
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CocktailCell", for: indexPath) as? CocktailCell else {fatalError("error")}
     cell.nameCocktail.text = data[indexPath.row].strDrink
-    cell.backgroundColor = .lightGray
-    cell.layer.cornerRadius = 6
+    cell.backgroundColor = .systemGray
+    cell.layer.cornerRadius = 10
     return cell
   }
 

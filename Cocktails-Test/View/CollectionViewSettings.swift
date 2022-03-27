@@ -22,7 +22,7 @@ class CollectionViewSettings: UIView {
     return cv
   }()
 
- private func setupCocktailCollectionView() {
+  private func setupCocktailCollectionView() {
     addSubview(tagCollectionView)
     tagCollectionView.contentInset = .init(top: 8, left: 8, bottom: 8, right: 8)
     tagCollectionView.snp.makeConstraints { make in

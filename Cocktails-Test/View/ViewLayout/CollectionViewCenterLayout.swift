@@ -8,7 +8,7 @@
 import UIKit
 
 
- class CollectionViewRow {
+class CollectionViewRow {
 
   var attributes = [UICollectionViewLayoutAttributes]()
   var spacing: CGFloat = 0
