@@ -8,11 +8,11 @@
 import Foundation
 
 struct Cocktail: Codable {
-    let drinks: [Drink]
+  let drinks: [Drink]
 }
 
 struct Drink: Codable {
-    let strDrink: String
-    let strDrinkThumb: String
-    let idDrink: String
+  let strDrink: String
+  let strDrinkThumb: String
+  let idDrink: String
 }

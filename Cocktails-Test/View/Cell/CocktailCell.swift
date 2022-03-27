@@ -1,6 +1,6 @@
 //
 //  CocktailCell.swift
-//  
+//  Cocktails-Test
 //
 //  Created by Kirill Drozdov on 27.03.2022.
 //
@@ -43,4 +43,3 @@ class CocktailCell: UICollectionViewCell
     }
   }
 }
-

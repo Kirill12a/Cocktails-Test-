@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/kirilldrozdov/Desktop/&#x421;&#x442;&#x430;&#x436;&#x438;&#x440;&#x43e;&#x432;&#x43a;&#x430;/in.Game/Cocktails-Test/Cocktails-Test/View/CocktailCell.swift">
-   </FileRef>
-   <FileRef
       location = "group:Cocktails-Test.xcodeproj">
    </FileRef>
    <FileRef
